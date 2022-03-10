@@ -10,11 +10,11 @@ To test just run
 
 Available enpoints are:
 
-http://172.30.0.2:9000/crawlable_catalogue/collections.json
+http://localhost:9000/crawlable_catalogue/collections.json
 
-http://172.30.0.2:9000/crawlable_catalogue/masked_rec/collection.json
+http://localhost:9000/crawlable_catalogue/masked_rec/collection.json
 
-http://172.30.0.2:9000/crawlable_catalogue/masked_rec/record.json
+http://localhost:9000/crawlable_catalogue/masked_rec/record.json
 
 
 
