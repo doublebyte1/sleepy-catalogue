@@ -2,23 +2,22 @@
 
 Proof of concept OGC API Records Crawable catalog
 
-This is a nginx with few rules to emulate a catalog, that right now is based on static files on the file system (check /data folder)
+It uses the minio scalable storage as a backend.
 
 To test just run
 
 `docker-compose up -d`
 
-Available enpoints are 
+Available enpoints are:
 
-http://localhost/collections/masked_rec
+http://172.30.0.2:9000/crawlable_catalogue/collections.json
 
-http://localhost/collections/masked_rec/items
+http://172.30.0.2:9000/crawlable_catalogue/masked_rec/collection.json
 
-http://localhost/collections/masked_rec/items/{feature_id}
+http://172.30.0.2:9000/crawlable_catalogue/masked_rec/record.json
 
-Next steps:
 
-1. Allow more collections (right now fixed to masked_rec). (Is it possible for crawable catalogs?)
-2. Automate creation of items endpoint
-3. Parameterize host and do not hard-code it in the jsons
+
+
+
 
