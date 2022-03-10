@@ -1,0 +1,29 @@
+{
+    "id": "global-collection",
+    "title": "Dataset Records from eMOTIONAL Cities",
+    "description": "This Collection links down to several crawlable record collections of different types",
+    "extent":
+    {
+        "spatial":
+        {
+            "bbox":
+            [
+                [
+                    -180,
+                    -90,
+                    180,
+                    90
+                ]
+            ]
+        }
+    },
+    "itemType": "feature",
+    "links":
+    [
+        {
+            "rel": "item",
+            "href": "masked_rec/collection.json"
+        }
+
+    ]
+}
