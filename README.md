@@ -16,6 +16,7 @@ http://localhost:9000/crawlable_catalogue/masked_rec/collection.json
 
 http://localhost:9000/crawlable_catalogue/masked_rec/record.json
 
+http://localhost:9000/crawlable_catalogue/web/index.html (web)
 
 ## Note
 
