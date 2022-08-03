@@ -2,3 +2,7 @@
 	path = data/crawlable_catalogue/web
 	url = https://github.com/doublebyte1/crawlable-viewer.git
 	branch = gh-pages
+[submodule "data/crawlable_catalogue/masked_rec/web"]
+	path = data/crawlable_catalogue/masked_rec/web
+	url = https://github.com/doublebyte1/crawlable-collection.git
+	branch = gh-pages
