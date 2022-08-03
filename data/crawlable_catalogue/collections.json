@@ -37,25 +37,10 @@
         },
         {
             "rel": "item",
-            "type": "application/json",
-            "title": "observations",
-            "description": "observations collection as JSON",
-            "href": "observations/collection.json"
-        },
-        {
-            "rel": "item",
             "type": "text/html",
             "title": "masked_rec",
             "description": "masked_rec collection as HTML",
             "href": "masked_rec/web/index.html",
-            "hreflang": "en-US"
-        },
-        {
-            "rel": "item",
-            "type": "text/html",
-            "title": "observations",
-            "description": "observations collection as HTML",
-            "href": "observations/web/index.html",
             "hreflang": "en-US"
         }
     ]
